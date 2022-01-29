@@ -1,12 +1,12 @@
 #procedure
+-----------
 (language :- python)
 In linux command line:-
--------------------------
 alias parsemyjson = "/home/python parseJsonFromApi.py"  #for every time I need to fetch this release
 just I need to type in command-liine->  parsemyjson
 and my file will be executed
+
 Procedure:-
--------------
 1. we need one library named urllib.request to send getrequest to the url(api) and getting the response
 2. first load the json
 3. fetch the count of results as mentioned in the json first attribute so that we can iterate through the json file and fetch all the names of active fadora releases
